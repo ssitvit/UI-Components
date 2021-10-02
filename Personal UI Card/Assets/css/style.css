@@ -1,0 +1,161 @@
+@import url("https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
+:root {
+  --primary: #0e76a8;
+  --light: #e1f1fd;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light);
+  width: 100vw;
+  height: 100vh;
+}
+
+.card {
+  width: 230px;
+  height: 360px;
+  background: var(--light);
+  box-shadow: -4px -2px 4px 0px #ffffff, 4px 2px 6px 0px #dfe4ea;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  overflow-x: hidden;
+  border-radius: 1rem;
+  padding-top: 40px;
+  padding-right: 40px;
+  border-bottom-width: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+.card:hover {
+  box-shadow: inset -6px -6px 20px rgba(0, 0, 0, 0.2),
+    inset 6px 6px 20px rgba(255, 255, 255, 1);
+}
+.card-head {
+  height: 44%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.profile-image {
+  border-radius: 20%;
+  position: absolute;
+  top: 25px;
+  width: 100px;
+  height: 100px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl7vDZe8-hwsjhenqx8ZnHs3SCHUnEFtXHLgDcngng3Oc_8qdXsT5qm3qKYrBXc99HD6k&usqp=CAU);
+}
+
+.profile-image::after {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: var(--light);
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  margin: -27.5px 0 0 -27.5px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.07),
+    inset -5px -5px 5px rgba(255, 255, 255, 0.7);
+}
+
+.acc {
+  position: absolute;
+  z-index: 1;
+  font-size: 3.7rem;
+  color: #807e7e;
+  top: 5px;
+  left: 20px;
+}
+
+.profile-name {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.description {
+  margin-top: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  color: black;
+  opacity: 0.8;
+}
+
+.icons {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: inherit;
+  border: none;
+  outline: 0;
+  box-shadow: -4px -2px 4px 0px #ffffff, 4px 2px 6px 0px #dfe4ea;
+  color: var(--primary);
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 10rem;
+  margin: 0.6rem;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.icons:focus:after,
+.icons:active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 10rem;
+  box-shadow: 2px 2px 2px 0px #dfe4ea inset, -2px -2px 2px 0px #ffffff inset;
+}
+
+ul {
+  margin-top: 15px;
+  display: inline-flex;
+}
+
+li {
+  list-style: none;
+}
+
+.btn-redirect {
+  position: relative;
+  background: inherit;
+  outline: none;
+  border: none;
+  box-shadow: -4px -2px 4px 0px #ffffff, 4px 2px 6px 0px #dfe4ea;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 0.5rem 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.btn-redirect:active::after,
+.btn-redirect:focus::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 0px #dfe4ea inset, -2px -2px 2px 0px #ffffff inset;
+}
