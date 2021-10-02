@@ -27,10 +27,16 @@ body {
   font-family: "Roboto", sans-serif;
   position: relative;
   overflow-x: hidden;
+  border-radius: 1rem;
+  padding-top: 40px;
+  padding-right: 40px;
+  border-bottom-width: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
 }
 .card:hover {
-  box-shadow: inset 6px 6px 20px rgba(0, 0, 0, 0.2),
-    inset -6px -6px 20px rgba(255, 255, 255, 1);
+  box-shadow: inset -6px -6px 20px rgba(0, 0, 0, 0.2),
+    inset 6px 6px 20px rgba(255, 255, 255, 1);
 }
 .card-head {
   height: 44%;
