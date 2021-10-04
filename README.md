@@ -15,16 +15,14 @@
 ### Contributors
 
 - [ Alok Mathur](https://github.com/alok27a)
--
+- [ Viraj Shukla](https://github.com/VirajS00)
 
 ---
 
 ```javascript
-
 if (youLiked) {
-    starThisRepository();
+	starThisRepository();
 }
-
 ```
 
 ---
