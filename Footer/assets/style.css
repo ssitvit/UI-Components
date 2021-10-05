@@ -1,0 +1,85 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+nav{
+    height:auto;
+    color:white;
+    text-align: center;
+    font-size:24px;
+    padding: 1rem;
+    background-color:#2A0944;
+}
+
+section{
+    height:60vh;
+}
+footer{
+    background-color: #334756;
+    color:white;
+    width:100%;
+    height:auto;
+    padding:2rem;
+}
+.container{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.col-1,.col-2{
+    margin:1rem;
+    padding:18px;
+}
+.col-1{
+    border-right:2px solid rgb(155, 155, 2);
+}
+.col-2{
+    width: 114rem;
+}
+.phnos ul li{
+    list-style-type: none;
+}
+.phnos ul .mail{
+    text-decoration: none;
+}
+.phnos ul .mail a{
+    text-decoration: none;
+    color:white;
+    transition:0.3s ease;
+}
+.phnos ul .mail a:hover{
+    color:#ddd;
+}
+.container-2{
+    width:100%;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.container-2 a{
+    color:white;
+    text-decoration: none;
+}
+.container-2 a:hover{
+    color:#ddd;
+}
+.col-3{width:500px;text-align: center;}
+@media only screen and (max-width: 900px) {
+    .container{
+        display:block;
+    }   
+    .col-1,.col-2,.col-3{
+        margin:0;
+        margin-bottom:2rem;
+        text-align: justify;
+        border:none;
+    }
+    .col-3{
+        text-align: center;
+        width:auto;
+    }
+    .col-2{
+        width:auto;
+    }
+}
