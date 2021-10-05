@@ -82,4 +82,7 @@ footer{
     .col-2{
         width:auto;
     }
+    footer{
+        font-size:14px;
+    }
 }
