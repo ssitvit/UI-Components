@@ -20,6 +20,8 @@
 
 - [ Alok Mathur](https://github.com/alok27a)
 - [ Viraj Shukla](https://github.com/VirajS00)
+- [ Samriddh Prasad](https://github.com/Samriddh2703)
+
 
 ---
 
