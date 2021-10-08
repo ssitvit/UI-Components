@@ -20,6 +20,7 @@
 
 - [ Alok Mathur](https://github.com/alok27a)
 - [ Viraj Shukla](https://github.com/VirajS00)
+- [ Ayush Garg](https://github.com/ayush0309)
 - [ Samriddh Prasad](https://github.com/Samriddh2703)
 
 
