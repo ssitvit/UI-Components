@@ -1,9 +1,3 @@
-<!-- To see the animation 
-      open the console window
-      type updateProgressBar(progressBar,50) and press enter 
-      at the place of 50 you can enter any value to see progress bar
--->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,32 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <title>Progress bar</title>
-    <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-
-
     <div class="card text-center mx-auto" style="width: 13.25rem;">
-        <div><h3>Loading</h3></div>
-        <div class="progress_text"><h5>82%</h5></div>
+        <div><h3>Loading...</h3></div>
         <div class="progress">
         <div class="progress_fill"></div>
         </div>
     </div>
-
-
-<script>
-
-const progressBar = document.querySelector(".progress")
-
-function updateProgressBar(progressBar , value){
-    progressBar.querySelector(".progress_fill").style.width = `${value}%`;
-    progressBar.querySelector(".progress_text").textContent = `${value}%`;
-}
-
-</script>
-
 </body>
 </html>
 
