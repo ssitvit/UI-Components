@@ -18,7 +18,8 @@
 }
 .main{
 
-    background-image: linear-gradient(black,rgb(1, 9, 124),black);
+    /* background-image: linear-gradient(black,rgb(1, 9, 124),black); */
+    background-image: linear-gradient(black,#0ecee1,black);
     background-color: rgb(1, 5, 59);
     height: 370px;
     width: 50%;
@@ -80,6 +81,7 @@
     text-align: center;
     color: goldenrod;
     font-weight: 600;
+    text-decoration: none;
 
 }
 .website a:hover{
@@ -117,11 +119,19 @@
     
 }
 .barcode{
+    border-top: 2px solid goldenrod;
     background-color: black;
     margin-top: 30px;
     padding-bottom: 40px;
     height: 7px;
-    width: 100%
+    width: 100%;
+    color: goldenrod;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: x-large;
+    align-items: baseline;
+    /* padding-bottom: 30px; */
 
 }
 .footer{
@@ -140,3 +150,4 @@
     object-fit: cover;
     padding: 5px 5px;
 }
+
