@@ -20,6 +20,7 @@
 
 - [ Ganesh sahu](https://github.com/vibgyor786)
 - [ Vishnu Nanduri Jayant](https://github.com/nandurijv)
+- [ Akshay Jadhav](https://github.com/Akshay9607)
 
 
 
