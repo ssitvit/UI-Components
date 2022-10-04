@@ -20,8 +20,8 @@
 
 - [ Ganesh sahu](https://github.com/vibgyor786)
 - [ Vishnu Nanduri Jayant](https://github.com/nandurijv)
+- [ Sukarayam Janjua](https://github.com/SukarayamJanjua)
 - [ Akshay Jadhav](https://github.com/Akshay9607)
-
 
 
 ---
