@@ -17,6 +17,8 @@
 - [ Sukarayam Janjua](https://github.com/SukarayamJanjua)
 - [ Akshay Jadhav](https://github.com/Akshay9607)
 
+- [ Akshit Garg](https://github.com/akshit5565)
+
 
 ---
 
