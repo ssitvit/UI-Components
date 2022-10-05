@@ -5,17 +5,10 @@
 </p>
 
 <p align="center">
-	<h2 align="center"> WHAT IS HACKTOBERFEST 2022</h2>
-	<h4 align="center">Hacktoberfest, in its 8th year, is a month-long celebration of open source software run by DigitalOcean. During the month of October, we invite you to join open-source software enthusiasts, beginners, and the developer community by contributing to open-source projects. You can do this in a variety of ways:</h4>
+	<h2 align="center">What is UI-Components/h2>
+	<h4 align="center">Ui-Components repository is a collection of most commonly used UI elements like navbars, loaders,carousels ,modals , cards, badges , avatars etc. Make sure to follow the guidelines of <a href="https://hacktoberfest.com/"> Hacktoberfest 2022</a> . Happy coding 😊 🎉 </h4>
 	<br/>
-	<ul>
-	<li>Prepare and share your project for collaboration</li>
-	<li>Contribute to the betterment of a project via pull requests</li>
-	<li>Organize an event
-</li>
-	<li>Mentor others
-</li>
-	<li>Donate directly to open source projects</li>
+	
 
 ### Contributors
 
