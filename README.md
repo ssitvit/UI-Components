@@ -1,7 +1,5 @@
 <p align="center">
     <img src="https://technologyandsociety.org/wp-content/uploads/Logo-Color-1.jpg" />
-    <h1 align="center">UI Components</h1>
-    <h4 align="center">INFO</h4>
 </p>
 
 <p align="center">
