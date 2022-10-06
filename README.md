@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-	<h2 align="center">What is UI-Components/h2>
+	<h2 align="center">What is UI-Components</h2>
 	<h4 align="center">Ui-Components repository is a collection of most commonly used UI elements like navbars, loaders,carousels ,modals , cards, badges , avatars etc. Make sure to follow the guidelines of <a href="https://hacktoberfest.com/"> Hacktoberfest 2022</a> . Happy coding 😊 🎉 </h4>
 	<br/>
 	
