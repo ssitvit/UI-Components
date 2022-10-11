@@ -1,7 +1,9 @@
+//dom selector for getting required components
 const hourHand = document.querySelector(".hand-hour");
 const minuteHand = document.querySelector(".hand-minute");
 const secondHand = document.querySelector(".hand-seconds");
 
+// fetching current time from local machine
 function getTime() {
   const now = new Date();
 
