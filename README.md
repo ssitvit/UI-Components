@@ -15,7 +15,7 @@
 - [ Akshay Jadhav](https://github.com/Akshay9607)
 - [ Mayank Agarwal](https://github.com/Mayank1170)
 - [ Akshit Garg](https://github.com/akshit5565)
-- [Utkarsh Raj](https://github.com/rajutkarsh07)
+- [ Utkarsh Raj ](https://github.com/rajutkarsh07)
 
 ---
 
