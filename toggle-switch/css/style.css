@@ -1,25 +1,25 @@
 /* page reset */
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* other styles */
 main {
-	margin-top: -3%;
-	min-height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
+  margin-top: -3%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .switch-container {
-	padding: 3em;
-	background-color: #fff;
-	box-shadow: 4px 4px 10px 4px #ccc;
+  padding: 3em;
+  background-color: #fff;
+  box-shadow: 4px 4px 10px 4px #ccc;
 }

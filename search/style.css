@@ -1,40 +1,40 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    width: 90%;
-    max-width: 720px;
-    margin: 2em auto 0;
-    padding: 1em;
-    box-shadow: 0 0 12px #2829384e;
-    border-radius: 0.5em;
+  width: 90%;
+  max-width: 720px;
+  margin: 2em auto 0;
+  padding: 1em;
+  box-shadow: 0 0 12px #2829384e;
+  border-radius: 0.5em;
 }
 
 .search {
-    border: none;
-    background-color: #f0f0f0;
-    padding: 1em;
-    border-radius: 1em;
-    width: 100%;
-    outline: none;
+  border: none;
+  background-color: #f0f0f0;
+  padding: 1em;
+  border-radius: 1em;
+  width: 100%;
+  outline: none;
 }
 
 .country {
-    display: grid;
-    grid-template-columns: 32px 1fr;
-    align-items: center;
-    gap: 1em;
-    padding: 1em;
-    margin: 0.2em auto;
-    border-radius: 1em;
+  display: grid;
+  grid-template-columns: 32px 1fr;
+  align-items: center;
+  gap: 1em;
+  padding: 1em;
+  margin: 0.2em auto;
+  border-radius: 1em;
 }
 
 .country:hover {
-    background-color: #f0f0f0;
+  background-color: #f0f0f0;
 }

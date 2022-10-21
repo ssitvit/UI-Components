@@ -9,7 +9,8 @@ function magnify(imgID, zoom) {
   /*set background properties for the magnifier glass:*/
   glass.style.backgroundImage = "url('" + img.src + "')";
   glass.style.backgroundRepeat = "no-repeat";
-  glass.style.backgroundSize = (img.width * zoom) + "px " + (img.height * zoom) + "px";
+  glass.style.backgroundSize =
+    img.width * zoom + "px " + img.height * zoom + "px";
   bw = 3;
   w = glass.offsetWidth / 2;
   h = glass.offsetHeight / 2;
@@ -28,18 +29,29 @@ function magnify(imgID, zoom) {
     x = pos.x;
     y = pos.y;
     /*prevent the magnifier glass from being positioned outside the image:*/
-    if (x > img.width - (w / zoom)) {x = img.width - (w / zoom);}
-    if (x < w / zoom) {x = w / zoom;}
-    if (y > img.height - (h / zoom)) {y = img.height - (h / zoom);}
-    if (y < h / zoom) {y = h / zoom;}
+    if (x > img.width - w / zoom) {
+      x = img.width - w / zoom;
+    }
+    if (x < w / zoom) {
+      x = w / zoom;
+    }
+    if (y > img.height - h / zoom) {
+      y = img.height - h / zoom;
+    }
+    if (y < h / zoom) {
+      y = h / zoom;
+    }
     /*set the position of the magnifier glass:*/
-    glass.style.left = (x - w) + "px";
-    glass.style.top = (y - h) + "px";
+    glass.style.left = x - w + "px";
+    glass.style.top = y - h + "px";
     /*display what the magnifier glass "sees":*/
-    glass.style.backgroundPosition = "-" + ((x * zoom) - w + bw) + "px -" + ((y * zoom) - h + bw) + "px";
+    glass.style.backgroundPosition =
+      "-" + (x * zoom - w + bw) + "px -" + (y * zoom - h + bw) + "px";
   }
   function getCursorPos(e) {
-    var a, x = 0, y = 0;
+    var a,
+      x = 0,
+      y = 0;
     e = e || window.event;
     /*get the x and y positions of the image:*/
     a = img.getBoundingClientRect();
@@ -49,6 +61,6 @@ function magnify(imgID, zoom) {
     /*consider any page scrolling:*/
     x = x - window.pageXOffset;
     y = y - window.pageYOffset;
-    return {x : x, y : y};
+    return { x: x, y: y };
   }
 }
