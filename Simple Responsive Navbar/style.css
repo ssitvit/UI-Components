@@ -47,7 +47,6 @@ header {
 
 .nav ol li a::before {
   content: "";
-  position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -66,7 +65,7 @@ header {
 }
 
 .nav ol li a:hover {
-  color: white;
+  background: linear-gradient(to right, #2c6440, #3c4320, #170f27);
 }
 
 .btn {
