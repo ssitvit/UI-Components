@@ -1,0 +1,41 @@
+.slider {
+    width: 700px;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+.slider .photos {
+    position: relative;
+    height: 433px;
+}
+
+.slider .photos img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.slider .photos img.shown {
+    opacity: 1;
+}
+
+.prev:before,
+.next:before {
+    color: #fff;
+    font-size: 100px;
+    position: absolute;
+    top: 35%;
+    cursor: pointer;
+}
+
+.prev:before {
+    content: '<';
+    left: 0;
+}
+
+.next:before {
+    content: '>';
+    right: 0;
+}
