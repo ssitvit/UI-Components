@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+svg{
+    width: 114px;
+    height: 114px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.circle{
+    fill: none;
+    stroke-width: 10px;
+    stroke: rgb(19,18,18);
+}
+
+.loader{
+    fill: none;
+    stroke-width: 10px;
+    stroke-linecap: round;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    stroke-dasharray: 360;
+    stroke-dashoffset: 100;
+    stroke: rgb(5,255,193);
+    animation: load 10s infinite;
+}
+
+@keyframes load{
+    0%{
+        stroke-dasharray: 360;
+    }
+    5%{
+        stroke-dasharray: 1;
+    }
+    100%{
+        stroke-dasharray: 360;
+    }
+}
