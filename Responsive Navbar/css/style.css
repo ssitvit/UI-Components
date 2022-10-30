@@ -1,62 +1,61 @@
 * {
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-nav{
-    position:sticky;
-    top:0;
-    padding:2rem;
-    font-size:18px;
-    font-family:'Poppins',sans-serif;
-    background-color: mediumseagreen;
-    display:flex;
-    justify-content: space-between;
+nav {
+  position: sticky;
+  top: 0;
+  padding: 2rem;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  background-color: mediumseagreen;
+  display: flex;
+  justify-content: space-between;
 }
-nav ul li{
-    list-style-type: none;
-    display:inline-block;
-    margin-right:2rem;
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 2rem;
 }
-nav ul li a{
-    text-decoration: none;
-    color:white;
-    transition:0.3s ease;
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s ease;
 }
-nav ul li a:hover{
-    color:rgb(201, 201, 201);
+nav ul li a:hover {
+  color: rgb(201, 201, 201);
 }
-.logo{
-    color:white;
+.logo {
+  color: white;
 }
-#desc{
-    display:none;
+#desc {
+  display: none;
 }
 @media only screen and (max-width: 900px) {
-    nav{
-        flex-direction: column;
-        align-items: center;
-        
-    }
-    .logo{
-        margin-bottom:24px;
-        text-align: center;
-        background-color:white;
-        color:black;
-        padding:10px;
-    }
-    nav ul{
-        align-items: center;
-    }
-    nav ul li{
-        display:block;
-        text-align: center;
-        margin:0;
-        margin-bottom:18px;
-    }
-    #desc{
-        display:block;
-        color:#ddd;
-    }
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo {
+    margin-bottom: 24px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 10px;
+  }
+  nav ul {
+    align-items: center;
+  }
+  nav ul li {
+    display: block;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 18px;
+  }
+  #desc {
+    display: block;
+    color: #ddd;
+  }
 }

@@ -1,60 +1,60 @@
 .switch {
-	/* switch properties declaration */
-	--clr-bg-off: #bfbebe;
-	--clr-bg-on: #00dc46;
-	--dot-clr: #fff;
-	--width: 100px;
-	--height: 50px;
-	--animation-length: 200ms;
+  /* switch properties declaration */
+  --clr-bg-off: #bfbebe;
+  --clr-bg-on: #00dc46;
+  --dot-clr: #fff;
+  --width: 100px;
+  --height: 50px;
+  --animation-length: 200ms;
 }
 
 .switch {
-	position: relative;
-	display: block;
-	width: var(--width);
-	height: var(--height);
-	margin: 1rem 0;
+  position: relative;
+  display: block;
+  width: var(--width);
+  height: var(--height);
+  margin: 1rem 0;
 }
 
 .switch > input {
-	opacity: 0;
-	width: 0;
-	height: 0;
+  opacity: 0;
+  width: 0;
+  height: 0;
 }
 
 .slider {
-	position: absolute;
-	cursor: pointer;
-	top: 0;
-	left: 0;
-	background-color: var(--clr-bg-off);
-	height: 100%;
-	width: 100%;
-	border-radius: 100vh;
-	transition: background-color var(--animation-length) ease-in-out;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  background-color: var(--clr-bg-off);
+  height: 100%;
+  width: 100%;
+  border-radius: 100vh;
+  transition: background-color var(--animation-length) ease-in-out;
 }
 
 .slider::before {
-	content: '';
-	height: calc(var(--height) - 7px);
-	width: calc(var(--height) - 7px);
-	background-color: var(--dot-clr);
-	position: absolute;
-	top: 50%;
-	transform: translate(4px, -50%);
-	border-radius: 50%;
-	transition: transform var(--animation-length) ease-in-out;
-	z-index: 2;
+  content: "";
+  height: calc(var(--height) - 7px);
+  width: calc(var(--height) - 7px);
+  background-color: var(--dot-clr);
+  position: absolute;
+  top: 50%;
+  transform: translate(4px, -50%);
+  border-radius: 50%;
+  transition: transform var(--animation-length) ease-in-out;
+  z-index: 2;
 }
 
 .toggle-switch:checked + .slider {
-	background-color: var(--clr-bg-on);
+  background-color: var(--clr-bg-on);
 }
 
 .toggle-switch:checked + .slider::before {
-	transform: translate(calc(var(--width) - 100% - 4px), -50%);
+  transform: translate(calc(var(--width) - 100% - 4px), -50%);
 }
 
 .toggle-switch:checked + .slider::after {
-	background-position: 10% 50%;
+  background-position: 10% 50%;
 }
